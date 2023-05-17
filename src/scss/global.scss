@@ -1,4 +1,10 @@
 @import "./variables";
+@import "./custom-properties";
+@import "./variables";
+@import "./mixins";
+@import "./site";
+@import "./utilities";
+
 
 
 a {
@@ -16,6 +22,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgb(255, 246, 246);
+  color: var(--color-blue-20);
 }
 
 h1 {
